@@ -24,6 +24,7 @@ struct BackgroundView: View {
 
 struct TopView: View{
     @Binding var game:Game
+    @State private var leaderboardIsShowing = false
     var body: some View{
         HStack{
             Button(){
@@ -32,7 +33,12 @@ struct TopView: View{
                 RoundedViewImageStroked(systemName: "arrow.counterclockwise")
             }
             Spacer()
-            RoundedViewImageFilled(systemName: "list.dash")
+            
+            Button(){
+                leaderboardIsShowing = true
+            }label:{
+                RoundedViewImageFilled(systemName: "list.dash")
+            }.sheet(isPresented: $leaderboardIsShowing, onDismiss: {}, content: {LeaderboardView(leaderboardIsShowing: $leaderboardIsShowing)})
         }
     }
 }
