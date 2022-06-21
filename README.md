@@ -5,4 +5,4 @@ My first SwiftUi App with the help of Ray Wenderlich's [iOS and SwiftUI for Begi
 * This app is designed following the design created in [figma](https://www.figma.com/file/EVeJ9H9I7QheOPicqGYxS3/Bullseye).
 
 ### Preview
-<img src = "https://user-images.githubusercontent.com/63056801/174819464-35de1792-67c2-4e99-bab8-1f718b64a9f2.png">
+<img src="https://user-images.githubusercontent.com/63056801/174819943-2d085726-7252-4a9a-9d80-2ff37c87e110.png">
