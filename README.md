@@ -1,4 +1,4 @@
-# Bullseye
+# Bullseye <a href="https://www.codefactor.io/repository/github/dakshayahuja/bullseye/overview/main"><img src="https://www.codefactor.io/repository/github/dakshayahuja/bullseye/badge/main" alt="CodeFactor" /></a>
 My first SwiftUi App with the help of Ray Wenderlich's [iOS and SwiftUI for Beginners](https://www.raywenderlich.com/ios/paths/learn) learning path.
 
 ## Figma Design
